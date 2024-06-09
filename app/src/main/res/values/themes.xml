@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.MapaCCUNSA" parent="Base.Theme.MapaCCUNSA" />
+
+    <style name="NavigationButtonView">
+        <item name="android:background">@color/white</item>
+        <item name="itemIconTint">@color/purple_200</item>
+        <item name="itemTextColor">@color/black</item>
+    </style>
+
 </resources>
