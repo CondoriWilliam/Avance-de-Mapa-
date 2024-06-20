@@ -10,15 +10,14 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ScrollView;
 
-import com.example.mapaccunsa.MapView;
-import com.example.mapaccunsa.R;
+import com.example.mapaccunsa.customviews.MapView;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link MapaFragment#newInstance} factory method to
+ * Use the {@link MapFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class MapaFragment extends Fragment {
+public class MapFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -29,7 +28,7 @@ public class MapaFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public MapaFragment() {
+    public MapFragment() {
         // Required empty public constructor
     }
 
@@ -42,8 +41,8 @@ public class MapaFragment extends Fragment {
      * @return A new instance of fragment MapaFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static MapaFragment newInstance(String param1, String param2) {
-        MapaFragment fragment = new MapaFragment();
+    public static MapFragment newInstance(String param1, String param2) {
+        MapFragment fragment = new MapFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);

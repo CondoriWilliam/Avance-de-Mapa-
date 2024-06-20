@@ -1,4 +1,4 @@
-package com.example.mapaccunsa;
+package com.example.mapaccunsa.activities;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -13,9 +13,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.example.mapaccunsa.R;
 import com.example.mapaccunsa.fragments.CuadrosFragment;
 import com.example.mapaccunsa.fragments.HomeFragment;
-import com.example.mapaccunsa.fragments.MapaFragment;
+import com.example.mapaccunsa.fragments.MapFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                     loadFragment(new CuadrosFragment());
                     return true;
                 } else if (menuItem.getItemId() == R.id.menu_mapa){
-                    loadFragment(new MapaFragment());
+                    loadFragment(new MapFragment());
                     return true;
                 } else {
                     return false;
